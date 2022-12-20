@@ -1,0 +1,45 @@
+@import './../variables';
+@import './../components/common';
+
+.section-services {
+   .container {
+       margin: auto;
+   }
+    .services__part {
+        display: grid;
+        //grid-template-rows: repeat(2,150px); /* 3 rows  */
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:100px 60px;
+        padding-top: 18px;
+    }
+    .services__part__box {
+        display: flex;
+    }
+    p {
+        margin-bottom: 0;
+        font-size: 15px;
+        line-height: 24px;
+        @extend %color-medium-grey;
+    }
+    span {
+        margin: 1px 30px 0;
+    }
+}
+@media (max-width: 640px) {
+    .section-services {
+        .services__part {
+            grid-template-columns: repeat(1, 1fr);
+            grid-gap:40px 20px;
+            padding-top: 18px;
+        }
+    }
+}
+@media (min-width: 641px) and (max-width: 1400px) {
+    .section-services {
+        .services__part {
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap:50px 30px;
+            padding-top: 18px;
+        }
+    }
+}

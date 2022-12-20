@@ -1,0 +1,52 @@
+@import './../mixins/icons';
+
+.ic {
+    &-shopping-cart {
+        @include icon-custom('shopping-cart', 18px, 14px);
+    }
+    &-magnifying-glass {
+        @include icon-custom('magnifying-glass', 18px, 18px);
+    }
+    &-alarm {
+        @include icon-custom('alarm', 32px, 31px);
+    }
+    &-line-graph {
+        @include icon-custom('line-graph', 32px, 32px);
+    }
+    &-computer-ok {
+        @include icon-custom('computer-ok', 32px, 28px);
+    }
+    &-book {
+        @include icon-custom('book', 32px, 32px);
+    }
+    &-home {
+        @include icon-custom('home', 32px, 31px);
+    }
+    &-digital {
+        @include icon-custom('digital', 32px, 32px);
+    }
+    &-twitter {
+        @include icon-custom('twitter', 26px, 22px);
+    }
+    &-pinterest {
+        @include icon-custom('pinterest', 20px, 26px);
+    }
+    &-instagram {
+        @include icon-custom('instagram', 26px, 26px);
+    }
+    &-facebook {
+        @include icon-custom('facebook', 12px, 26px);
+    }
+    &-twitter-white {
+        @include icon-custom('twitter-white', 26px, 22px);
+    }
+    &-pinterest-white {
+        @include icon-custom('pinterest-white', 20px, 26px);
+    }
+    &-instagram-white {
+        @include icon-custom('instagram-white', 26px, 26px);
+    }
+    &-facebook-white {
+        @include icon-custom('facebook-white', 12px, 26px);
+    }
+}

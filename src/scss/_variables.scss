@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+$font-family-sans-serif: 'Roboto';
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+// Colors
+
+$dark-grey: #333;
+$medium-grey: #999;
+$soft-red: #f38181;
+$white: #fff;
+$soft-yellow: #fce38a;
+$green: #95e1d3;
+$light-gray: #e7e7e7;
+
+
+// Font-colors
+
+%color {
+    &-silver-dark {
+        color: $dark-grey;
+    }
+
+    &-medium-grey {
+        color: $medium-grey;
+    }
+
+    &-soft-red {
+        color: $soft-red;
+    }
+
+    &-white {
+        color: $white;
+    }
+
+    &-soft-yellow {
+        color: $soft-yellow;
+    }
+}
+
+body {
+    margin: 0;
+}
+
+// Container width
+.container {
+    max-width: 1200px;
+}

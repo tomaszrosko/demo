@@ -1,0 +1,30 @@
+@import './../variables';
+
+.btn {
+    &-learn {
+        display: flex;
+        align-items: center;
+        border: 2px solid $white;
+    }
+
+    &-subscribe {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 14px 0;
+    }
+
+}
+
+.btn-learn:hover {
+    border: 2px solid $soft-yellow;
+    transition: 0.5s;
+}
+
+hr {
+    width: 60px;
+    margin-bottom: 46px;
+    border: solid $soft-red 1px;
+
+}

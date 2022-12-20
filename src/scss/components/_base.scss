@@ -1,0 +1,48 @@
+@import './../variables';
+@import url('https://fonts.cdnfonts.com/css/montserrat');
+@import url('https://fonts.cdnfonts.com/css/kaushan-script');
+
+h1 {
+    @extend %color-white;
+    font-family: Montserrat, sans-serif;
+    font-size: 150px;
+    font-weight: 700;
+    line-height: 140px;
+
+    span {
+        font-family: 'Kaushan Script', sans-serif;
+        font-size: 72px;
+        font-weight: 400;
+    }
+}
+
+h2 {
+    margin: 48px 0 42px;
+    font-family: Montserrat, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+
+    span {
+        font-family: 'Kaushan Script', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+
+h3 {
+    margin-top: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+}
+
+.h3-signature {
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
