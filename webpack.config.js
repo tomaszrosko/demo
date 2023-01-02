@@ -183,10 +183,10 @@ module.exports = {
             mode: 'webapp',
             devMode: 'webapp',
             favicons: {
-                appName: 'nq-webapp',
-                appDescription: 'NQ',
-                developerName: 'Digibit',
-                developerURL: 'https://digibit.pl',
+                appName: 'Demo-side',
+                appDescription: 'Demo',
+                developerName: 'Tom',
+                developerURL: 'https://tomaszrosko.github.io/demo/',
                 background: '#fff',
                 theme_color: '#1893d2'
             }

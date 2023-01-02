@@ -1,36 +1,25 @@
-## Instalacja
+## Table of contents
+- [Table of contents](#table-of-contents)
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
+- [Contact](#contact)
 
-Wymagane:
 
-1. npm
-2. node - min: v14
+## General info
 
-Instalacja wymaganych pakietów
+This project is a Demo-side.
 
-```
-npm install
-```
+## Technologies
+Project is created with:
+* Html5
+* SASS
 
-## Skrypty
+## Setup
+- clone repository
+- npm install && npm run server ( need node modules - minimal version: v14)
+- open http://localhost:9000 to view it in the browser.
 
-### Build
-
-```
-npm run build
-```
-    
-### Watch
-```
-npm run watch
-```
-
-### Sass
-```
-npm run sass
-```
-### Stylelint
-```
-npm run list:style
-```
-
-## Webpack
+## Contact
+| Adress email:     | tomasz.rosko@gmail.com |
+| Mobilephone:      | 668 479 065            |
